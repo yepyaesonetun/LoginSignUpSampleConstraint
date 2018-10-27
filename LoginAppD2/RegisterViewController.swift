@@ -9,25 +9,39 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
-
+    @IBOutlet weak var btnChooseDOB: UIButton!
+    @IBOutlet weak var lblDOB: UILabel!
+    private var datePicker : UIDatePicker?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        // Create a DatePicker
+//        datePicker = UIDatePicker()
+//        datePicker?.datePickerMode = .date
+//        datePicker?.addTarget(self, action: #selector(dateChanged(datePicker:)), for: .valueChanged)
+//
+//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
+//        view.addGestureRecognizer(tapGesture)
+//        btnChooseDOB.addSubview((datePicker ?? nil)!)
+//
     }
+    
+//    @objc func viewTapped(gestureRecognizer : UITapGestureRecognizer){
+//        view.endEditing(true)
+//    }
+//
+//    @objc func dateChanged(datePicker:UIDatePicker){
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "MM/dd/yyyy"
+//        btnChooseDOB.titleLabel?.text = dateFormatter.string(from: datePicker.date)
+//        view.endEditing(true)
+//    }
     
     @IBAction func back(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -15,6 +15,7 @@
 		4F87E4E5217C5B5700CCF981 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87E4E4217C5B5700CCF981 /* Constants.swift */; };
 		4F87E4E7217C5C7300CCF981 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87E4E6217C5C7300CCF981 /* SecondViewController.swift */; };
 		4F87E4E9217CC1C700CCF981 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87E4E8217CC1C700CCF981 /* RegisterViewController.swift */; };
+		4F95054E2183F62E0094E396 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F95054D2183F62E0094E396 /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4F87E4E4217C5B5700CCF981 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4F87E4E6217C5C7300CCF981 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4F87E4E8217CC1C700CCF981 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4F95054D2183F62E0094E396 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4F87E4E4217C5B5700CCF981 /* Constants.swift */,
 				4F87E4E6217C5C7300CCF981 /* SecondViewController.swift */,
 				4F87E4E8217CC1C700CCF981 /* RegisterViewController.swift */,
+				4F95054D2183F62E0094E396 /* ForgetPasswordViewController.swift */,
 			);
 			path = LoginAppD2;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				4F87E4E9217CC1C700CCF981 /* RegisterViewController.swift in Sources */,
 				4F87E4D5217C4E2700CCF981 /* ViewController.swift in Sources */,
 				4F87E4D3217C4E2700CCF981 /* AppDelegate.swift in Sources */,
+				4F95054E2183F62E0094E396 /* ForgetPasswordViewController.swift in Sources */,
 				4F87E4E5217C5B5700CCF981 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

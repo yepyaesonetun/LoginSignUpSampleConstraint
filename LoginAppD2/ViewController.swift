@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         
         btnRegister.addTarget(self, action: #selector(onClickRegister), for: .touchUpInside)
        
+        let onTap = UITapGestureRecognizer(target: self, action: #selector(onClickForgetPassword))
+        lblForgetPassword.isUserInteractionEnabled = true
+        lblForgetPassword.addGestureRecognizer(onTap)
     }
 
     @objc func onClickLogIn(){
@@ -53,6 +56,10 @@ class ViewController: UIViewController {
         self.present(navigationViewController, animated: true, completion: nil)
     }
     
+    @objc func onClickForgetPassword(){
+        let navigationViewController = self.storyboard?.instantiateViewController(withIdentifier: "ForgetPasswordViewController") as! UINavigationController
+        self.present(navigationViewController, animated: true, completion: nil)
+    }
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if segue.identifier == Constants.SegueId.LOGIN_SEGUE {
 //            let vc = segue.destination as! SecondViewController
